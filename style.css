@@ -12,3 +12,8 @@
     border-color: black;
     box-shadow: 15px 15px 10px 12px rgb(206, 204, 204);
 }
+
+.button{
+    width: 10px;
+    height: 60px;
+}
