@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Form</title>
 </head>
 <body>
@@ -27,7 +31,7 @@
             <div class="col-25">
             <label for="">Phone Number</label></div>
             <div class="col-75">
-            <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></div>
+            <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder=""></div>
             <div class="col-25">
             <label for="">Event Date</label></div> 
             <div class="col-75">
@@ -50,7 +54,7 @@
             </select>
         </div>
             <div class="button">
-            <input type="submit" name="register" value="Register">
+            <input type="submit" value="Register">
         </div>
         </form>
     </div>

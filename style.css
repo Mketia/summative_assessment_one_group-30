@@ -1,10 +1,13 @@
+*{
+    font-family: "DM Sans", sans-serif;;
+}
 .container{
     background-color: white;
-    margin-left: 20%;
-    margin-top: 50px;
-    padding: 5rem 5rem 10rem 5rem;
-    width: 25rem;
-    margin-top: 50px;
+    margin-left: 30%;
+    /* margin-top: 50px; */
+    padding: 3rem 3rem 3rem 3rem;
+    position: fixed;
+    width: 30%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,7 +16,36 @@
     box-shadow: 15px 15px 10px 12px rgb(206, 204, 204);
 }
 
-.button{
-    width: 10px;
-    height: 60px;
+.col-25 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+  }
+
+.col-75{
+    float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+input, select{
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+    margin-top: 20px;
+    width: 50%;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+input[type=submit]:hover{
+    color: white;
+    background-color: black;
+    transition: ease-in-out 0.5s;
 }
