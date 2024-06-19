@@ -37,7 +37,7 @@ input, select{
 }
 
 input[type=submit]{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 50%;
     color: black;
     font-weight: 500;
