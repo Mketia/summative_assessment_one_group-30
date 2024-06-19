@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+            <h2>Event Registration Form</h2>
+            <div class="form">
+        <form action="">
+            <label for="">Name</label><input type="text" name="name" required="">
+            <label for="">Email</label><input type="email" name="email" required="">
+            <label for="">Phone Number</label><input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <label for="">Event Date</label> <input type="date" name="eventDate" id="">
+            <label for="">Number of Tickets</label> <select name="ticketsNumber" id="">
+                <option value="default" selected disabled>--Select the number of tickets (1-10)--</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+                <option value="nine">9</option>
+                <option value="ten">10</option>
+            </select>
+            <input type="submit" name="register" value="Register">
+        </form>
+    </div>
+    </div>
+</div>
+</body>
+</html>
